@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Redirect } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import css from "./App.css";
 import Menu from './Menu';
 import Contact from './Contact';
@@ -18,7 +18,6 @@ function App() {
                 <Route path='/home' element={<Home />}></Route>
                 <Route path='/subscription' element={<Subscription />}></Route>
                 <Route path='/search' element={<Search />}></Route>
-                <redirect to='/'></redirect>
             </Routes>
         </>
     )
