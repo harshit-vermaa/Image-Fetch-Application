@@ -5,13 +5,9 @@ import css from './Menu.css';
 function Menu() {
     return (
         <>
-            <ul className='menu'>
-                <NavLink to='/home' className='li'>Home</NavLink>
-                <NavLink to='/about' className='li'>About</NavLink>
-                <NavLink to='/search' className='li'>Search</NavLink>
-                <NavLink to='/contact' className='li'>Contact</NavLink>
-                <NavLink to='/subscription' className='li'>Subscription</NavLink>
-            </ul>
+            <div className='menu'>
+                <p to='/search' className='li'>Image Fetching App by <NavLink to='https://github.com/harshit-vermaa' style={{color:'lightblue', textDecoration:'none'}} >Harshit Verma</NavLink></p>
+            </div>
         </>
     )
 }
