@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Image-Fetch-Application/static/css/main.e63d47fc.css",
+    "main.js": "/Image-Fetch-Application/static/js/main.66e183b1.js",
+    "index.html": "/Image-Fetch-Application/index.html",
+    "main.e63d47fc.css.map": "/Image-Fetch-Application/static/css/main.e63d47fc.css.map",
+    "main.66e183b1.js.map": "/Image-Fetch-Application/static/js/main.66e183b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e63d47fc.css",
+    "static/js/main.66e183b1.js"
+  ]
+}
